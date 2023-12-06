@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Joshua Chung</title>
+  </head>
+  <body>
+    <section id="header-introduction" class="gradient-background">
+      <!-- Header -->
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-between py-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <img class="bi me-2" width="40" height="32" src="./icons/map.svg" />
+            <span class="fs-4" style="font-weight: bold">Joshua Chung</span>
+          </a>
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <!-- Introduction -->
+      <div class="px-4 py-5 text-center">
+        <div class="d-flex flex-nowrap justify-content-center">
+          <img
+            id="profile-img"
+            class="d-block mx-5 my-4"
+            src="./images/profile_image.JPG"
+            alt=""
+            width="250"
+          />
+          <div class="name-intro">
+            <h1 class="display-5 fw-bold text-body-emphasis">Joshua Chung</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4"></p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a
+                  href="./files/Joshua_HW_Chung_CV.pdf"
+                  download="Joshua_HW_Chung_CV.pdf"
+                  class="btn btn-outline-dark btn-lg px-4 gap-3"
+                >
+                  Download CV
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skills -->
+    <section id="skills">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom fw-bold">My Skills</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('./images/gis-image.png');
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">GIS</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./icons/globe.svg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <small>6 years</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('./images/automation-image.JPG');
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Automation
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./icons/tools.svg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <small>1 year</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('./images/web-development-image.png');
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Web Development
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./icons/code-slash.svg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <small>3 months</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('./images/machine-learning-image.JPG');
+                background-size: cover;
+                background-position: center;
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Machine Learning
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./icons/code-slash.svg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <small>2 years</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section id="interests">
+      <div class="container px-4 pb-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Interests</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3"
+            >
+              <img
+                src="./icons/keyboard.svg"
+                alt="Bootstrap"
+                width="32"
+                height="32"
+              />
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Keyboards</h3>
+            <p>
+              I enjoy building keyboards in my spare time! For more information
+              on keyboards and my collection, click the link below!
+            </p>
+            <a href="#" class="icon-link">
+              My Keyboards
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3"
+            >
+              <img
+                src="./icons/duffle-fill.svg"
+                alt="Bootstrap"
+                width="32"
+                height="32"
+              />
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Softball</h3>
+            <p>
+              I was lucky enough to participate in KCSA's 2023 Softball Season
+              on the New Hope Fellowship B team.
+            </p>
+            <a href="#" class="icon-link">
+              2023 KCSA Softball Season
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer" class="gradient-background">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+              <p class="col-md-4 mb-0 text-body-secondary">© Joshua Chung</p>
+          
+              <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About Me</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+              </ul>
+            </footer>
+          </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
